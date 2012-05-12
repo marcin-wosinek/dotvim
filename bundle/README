@@ -1,0 +1,4 @@
+Adding plugin as a submodule (in repositiory root):
+    git submodule add <git-url> bundle/<name>
+    git add .
+    git commit -m "<commen>"
