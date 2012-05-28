@@ -8,6 +8,8 @@ set shiftwidth=2
 set autoindent
 set smartindent
 
+set number
+
 syntax on
 
 " Drupal *.module and *.install files.
