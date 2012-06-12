@@ -27,7 +27,7 @@ augroup END
 let g:syntastic_phpcs_conf=" --standard=Drupal --extensions=php,module,inc,install,test,profile,theme"
 
 " for improving use of paste in putty
-set pastetoggle=<F12>
+set pastetoggle=<F10>
 
 " add best esc mapping ever
 inoremap jk <esc>
