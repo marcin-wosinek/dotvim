@@ -7,3 +7,9 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/drupal-vim-php-indent"]
+	path = bundle/drupal-vim-php-indent
+	url = git@github.com:marcin-wosinek/drupal-vim-php-indent.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = git://github.com/ervandew/supertab.git

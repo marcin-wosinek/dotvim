@@ -9,6 +9,8 @@ set autoindent
 set smartindent
 set number
 
+set number
+
 syntax on
 
 " Drupal *.module and *.install files.
