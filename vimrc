@@ -47,3 +47,6 @@ autocmd VimEnter * NERDTree
 
 " setting file window as a default
 autocmd VimEnter * wincmd p
+
+" maping for gundo
+nnoremap <tab> :GundoToggle<CR>
