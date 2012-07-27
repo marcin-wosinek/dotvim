@@ -23,9 +23,6 @@ augroup module
   autocmd BufRead,BufNewFile *.view set filetype=php
 augroup END
 
-" enabling drupal code sniffer
-let g:syntastic_phpcs_conf=" --standard=Drupal --extensions=php,module,inc,install,test,profile,theme"
-
 " for improving use of paste in putty
 set pastetoggle=<F10>
 
@@ -41,9 +38,6 @@ inoremap KJ <esc>
 
 " change layout
 colorscheme dante
-
-" enabling nerdtree by default
-autocmd VimEnter * NERDTree
 
 " setting file window as a default
 autocmd VimEnter * wincmd p
