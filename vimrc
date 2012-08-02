@@ -44,3 +44,6 @@ autocmd VimEnter * wincmd p
 
 " maping for gundo
 nnoremap <tab> :GundoToggle<CR>
+
+" sudo write :W
+command W w !sudo tee % > /dev/null
