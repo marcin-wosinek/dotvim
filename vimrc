@@ -36,6 +36,8 @@ inoremap kJ <esc>
 inoremap JK <esc>
 inoremap KJ <esc>
 
+autocmd BufWritePre * :%s/\s\+$//e
+
 " change layout
 colorscheme dante
 
