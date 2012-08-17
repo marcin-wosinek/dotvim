@@ -16,3 +16,6 @@
 [submodule "bundle/gundo"]
 	path = bundle/gundo
 	url = git://github.com/sjl/gundo.vim.git
+[submodule "bundle/freemarker"]
+	path = bundle/freemarker
+	url = git://github.com/chaquotay/ftl-vim-syntax.git

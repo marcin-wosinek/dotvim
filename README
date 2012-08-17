@@ -20,3 +20,6 @@ To quick init on new machine use:
     cd ~/.vim
     git submodule init
     git submodule update
+
+To add new submodule
+    git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive

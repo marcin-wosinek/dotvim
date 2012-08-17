@@ -21,6 +21,7 @@ augroup module
   autocmd BufRead,BufNewFile *.inc set filetype=php
   autocmd BufRead,BufNewFile *.profile set filetype=php
   autocmd BufRead,BufNewFile *.view set filetype=php
+  autocmd BufRead,BufNewFile *.ftl set filetype=ftl
 augroup END
 
 " for improving use of paste in putty
