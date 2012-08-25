@@ -50,3 +50,16 @@ nnoremap <tab> :GundoToggle<CR>
 
 " sudo write :W
 command W w !sudo tee % > /dev/null
+
+" custom syntastic configuration
+"   turn it on in passive mode
+"   maps shortcut for checking
+if !exists("g:syntastic_mode_map")
+    let g:syntastic_mode_map = {}
+endif
+
+if !has_key(g:syntastic_mode_map, "mode")
+    let g:syntastic_mode_map['mode'] = 'passive'
+endif
+
+nnoremap <C-x> :SyntasticCheck<CR>
