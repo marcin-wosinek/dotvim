@@ -22,3 +22,6 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
+[submodule "bundle/localvimrc"]
+	path = bundle/localvimrc
+	url = git://github.com/embear/vim-localvimrc.git
