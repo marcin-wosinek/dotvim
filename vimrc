@@ -63,3 +63,6 @@ if !has_key(g:syntastic_mode_map, "mode")
 endif
 
 nnoremap <C-x> :SyntasticCheck<CR>
+
+" setting search highlight
+set hlsearch
