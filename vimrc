@@ -66,3 +66,6 @@ nnoremap <C-x> :SyntasticCheck<CR>
 
 " setting search highlight
 set hlsearch
+
+" Keep history when changing buffers
+set hidden
