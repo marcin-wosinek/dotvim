@@ -46,7 +46,11 @@ colorscheme dante
 autocmd VimEnter * wincmd p
 
 " maping for gundo
-nnoremap <tab> :GundoToggle<CR>
+nnoremap <tab>g :GundoToggle<CR>
+
+" maping for gundo
+nnoremap <tab>n :NERDTreeT<CR>
+nnoremap <tab> :NERDTreeT<CR>
 
 " sudo write :W
 command W w !sudo tee % > /dev/null
