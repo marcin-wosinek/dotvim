@@ -73,3 +73,6 @@ set hlsearch
 
 " Keep history when changing buffers
 set hidden
+
+" Intent fix
+filetype indent on
