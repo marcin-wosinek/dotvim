@@ -25,3 +25,12 @@
 [submodule "bundle/localvimrc"]
 	path = bundle/localvimrc
 	url = git://github.com/embear/vim-localvimrc.git
+[submodule "bundle/tir_black"]
+	path = bundle/tir_black
+	url = git://github.com/vim-scripts/tir_black.git
+[submodule "bundle/wombat"]
+	path = bundle/wombat
+	url = git://github.com/vim-scripts/Wombat.git
+[submodule "bundle/desert-warm-256"]
+	path = bundle/desert-warm-256
+	url = git://github.com/rainux/vim-desert-warm-256.git

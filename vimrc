@@ -40,7 +40,7 @@ inoremap KJ <esc>
 autocmd BufWritePre * :%s/\s\+$//e
 
 " change layout
-colorscheme dante
+colorscheme wombat
 
 " setting file window as a default
 autocmd VimEnter * wincmd p
