@@ -18,7 +18,7 @@
 	url = git://github.com/sjl/gundo.vim.git
 [submodule "bundle/freemarker"]
 	path = bundle/freemarker
-	url = git://github.com/chaquotay/ftl-vim-syntax.git
+	url = git://github.com/marcin-wosinek/ftl-vim-syntax.git
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
@@ -34,3 +34,6 @@
 [submodule "bundle/desert-warm-256"]
 	path = bundle/desert-warm-256
 	url = git://github.com/rainux/vim-desert-warm-256.git
+[submodule "bundle/html5"]
+	path = bundle/html5
+	url = git://github.com/othree/html5.vim.git
