@@ -48,9 +48,10 @@ autocmd VimEnter * wincmd p
 " maping for gundo
 nnoremap <tab>g :GundoToggle<CR>
 
-" maping for gundo
+" maping for NERDTree
 nnoremap <tab>n :NERDTreeT<CR>
 nnoremap <tab> :NERDTreeT<CR>
+nmap gn :NERDTreeFind<CR>
 
 " sudo write :W
 command W w !sudo tee % > /dev/null
@@ -76,3 +77,6 @@ set hidden
 
 " Intent fix
 filetype indent on
+
+" Don't ask, just load .lvimrc
+let g:localvimrc_ask=0
