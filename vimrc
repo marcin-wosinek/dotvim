@@ -11,8 +11,6 @@ set number
 
 set number
 
-syntax on
-
 " Drupal *.module and *.install files.
 augroup module
   autocmd BufRead,BufNewFile *.module set filetype=php
@@ -39,8 +37,10 @@ inoremap KJ <esc>
 
 autocmd BufWritePre * :%s/\s\+$//e
 
-" change layout
-colorscheme wombat
+" Set layout
+syntax enable
+set background=dark
+colorscheme solarized
 
 " setting file window as a default
 autocmd VimEnter * wincmd p
