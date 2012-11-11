@@ -80,3 +80,6 @@ filetype indent on
 
 " Don't ask, just load .lvimrc
 let g:localvimrc_ask=0
+
+" Surpress ex mode
+map Q <Nop>
