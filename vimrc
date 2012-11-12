@@ -83,3 +83,8 @@ let g:localvimrc_ask=0
 
 " Surpress ex mode
 map Q <Nop>
+
+" Powerline fancy
+let g:Powerline_symbols = 'fancy.vimrc.vimrc'
+set term=xterm-256color
+set termencoding=utf-8

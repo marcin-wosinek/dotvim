@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/var/www/levrikare/sites/all/modules/custom'
 let g:netrw_dirhist_2='/media/sf_Workspace/Synergy/synergy/src/test/data/portal-root/no-theme/j/jquery/plugins/noty'
 let g:netrw_dirhist_3='/home/wosinekm/.wine'
+let g:netrw_dirhist_4='/home/wosinekm/dotfiles/dotvim/dotvim'
