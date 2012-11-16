@@ -35,7 +35,8 @@ inoremap kJ <esc>
 inoremap JK <esc>
 inoremap KJ <esc>
 
-autocmd BufWritePre * :%s/\s\+$//e
+" Remove spaces at the end of the file
+autocmd BufWritePre *{.html\|.module\|.install\|.test\|.inc\|.view\|.ftl\|.txt\|.css\|.js\|.php} :%s/\s\+$//e
 
 " Set layout
 syntax enable
