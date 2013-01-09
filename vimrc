@@ -82,6 +82,9 @@ filetype indent on
 " Don't ask, just load .lvimrc
 let g:localvimrc_ask=0
 
+" Dont use sandbox
+let g:localvimrc_sandbox=0
+
 " Surpress ex mode
 map Q <Nop>
 
@@ -89,3 +92,8 @@ map Q <Nop>
 let g:Powerline_symbols = 'fancy.vimrc.vimrc'
 set term=xterm-256color
 set termencoding=utf-8
+
+" testacular
+command -nargs=* Make make <args> | cwindow 6
+set makeprg=testacular\ run
+set errorformat=%m\ FAILED
