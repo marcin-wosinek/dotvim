@@ -97,3 +97,7 @@ set termencoding=utf-8
 command -nargs=* Make make <args> | cwindow 6
 set makeprg=testacular\ run
 set errorformat=%m\ FAILED
+
+" Auto-complete for css
+autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+autocmd FileType scss set omnifunc=csscomplete#CompleteCSS
