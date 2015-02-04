@@ -40,7 +40,7 @@ autocmd BufWritePre *{.html\|.module\|.install\|.test\|.inc\|.view\|.ftl\|.txt\|
 
 " Set layout
 syntax enable
-set background=light
+set background=dark
 colorscheme solarized
 
 " setting file window as a default
@@ -65,7 +65,7 @@ if !exists("g:syntastic_mode_map")
 endif
 
 if !has_key(g:syntastic_mode_map, "mode")
-    let g:syntastic_mode_map['mode'] = 'passive'
+    let g:syntastic_mode_map['mode'] = 'active'
 endif
 
 nnoremap <C-x> :SyntasticCheck<CR>
@@ -96,3 +96,5 @@ set termencoding=utf-8
 " Auto-complete for css
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 autocmd FileType scss set omnifunc=csscomplete#CompleteCSS
+
+let g:vim_json_syntax_conceal = 0
