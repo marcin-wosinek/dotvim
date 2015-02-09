@@ -1,6 +1,0 @@
-set makeprg=testacular-vim-run
-set makeef=/tmp/vim-quickfix-errors
-if !exists("testacular_make")
-  let testacular_make = 1
-  autocmd BufWritePost *js make
-endif

@@ -11,8 +11,8 @@ set number
 
 set number
 
-" Drupal *.module and *.install files.
 augroup module
+  " Drupal *.module and *.install files.
   autocmd BufRead,BufNewFile *.module set filetype=php
   autocmd BufRead,BufNewFile *.install set filetype=php
   autocmd BufRead,BufNewFile *.test set filetype=php
@@ -20,6 +20,9 @@ augroup module
   autocmd BufRead,BufNewFile *.profile set filetype=php
   autocmd BufRead,BufNewFile *.view set filetype=php
   autocmd BufRead,BufNewFile *.ftl set filetype=html.ftl
+
+  " js folding
+  autocmd BufRead,BufNewFile *.js set foldmethod=syntax
 augroup END
 
 " for improving use of paste in putty
