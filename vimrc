@@ -23,7 +23,7 @@ augroup module
 
   " js folding
   autocmd BufRead,BufNewFile *.js set foldmethod=syntax
-  autocmd BufRead,BufNewFile .jshint set filetype=json
+  autocmd BufRead,BufNewFile .jshintrc set filetype=json
 augroup END
 
 " for improving use of paste in putty
