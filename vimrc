@@ -44,7 +44,7 @@ autocmd BufWritePre *{.html\|.module\|.install\|.test\|.inc\|.view\|.ftl\|.txt\|
 
 " Set layout
 syntax enable
-set background=dark
+set background=light
 colorscheme solarized
 
 " setting file window as a default
