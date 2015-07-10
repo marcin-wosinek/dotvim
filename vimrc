@@ -102,3 +102,5 @@ autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 autocmd FileType scss set omnifunc=csscomplete#CompleteCSS
 
 let g:vim_json_syntax_conceal = 0
+
+set spell spelllang=en_us
