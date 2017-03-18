@@ -39,8 +39,8 @@ inoremap kJ <esc>
 inoremap JK <esc>
 inoremap KJ <esc>
 
-" Remove spaces at the end of the file
-autocmd BufWritePre *{.html\|.module\|.install\|.test\|.inc\|.view\|.ftl\|.txt\|.css\|.js\|.php} :%s/\s\+$//e
+" Remove spaces at the end of the line
+autocmd BufWritePre *{.html\|.module\|.install\|.test\|.inc\|.view\|.ftl\|.txt\|.css\|.ts\|.json\|.js\|.php} :%s/\s\+$//e
 
 " Set layout
 syntax enable
@@ -104,3 +104,5 @@ autocmd FileType scss set omnifunc=csscomplete#CompleteCSS
 let g:vim_json_syntax_conceal = 0
 
 set spell spelllang=en_us
+
+let g:syntastic_javascript_checkers = ['eslint']
