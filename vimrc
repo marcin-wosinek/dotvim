@@ -44,6 +44,10 @@ autocmd VimEnter * wincmd p
 " maping for gundo
 nnoremap <tab>g :GundoToggle<CR>
 
+if has('python3')
+  let g:gundo_prefer_python3 = 1          " anything else breaks on Ubuntu 16.04+
+endif
+
 " maping for NERDTree
 nnoremap <tab>n :NERDTreeT<CR>
 nnoremap <tab> :NERDTreeT<CR>
