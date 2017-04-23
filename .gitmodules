@@ -4,9 +4,6 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
-[submodule "bundle/supertab"]
-	path = bundle/supertab
-	url = git://github.com/ervandew/supertab.git
 [submodule "bundle/css-color"]
 	path = bundle/css-color
 	url = git://github.com/skammer/vim-css-color.git
@@ -52,3 +49,6 @@
 [submodule "bundle/vim-stylus"]
 	path = bundle/vim-stylus
 	url = git://github.com/wavded/vim-stylus.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = git@github.com:Valloric/YouCompleteMe.git
