@@ -4,9 +4,6 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
-[submodule "bundle/drupal-vim-php-indent"]
-	path = bundle/drupal-vim-php-indent
-	url = git://github.com/marcin-wosinek/drupal-vim-php-indent.git
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = git://github.com/ervandew/supertab.git
@@ -22,18 +19,9 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
-[submodule "bundle/localvimrc"]
-	path = bundle/localvimrc
-	url = git://github.com/embear/vim-localvimrc.git
 [submodule "bundle/tir_black"]
 	path = bundle/tir_black
 	url = git://github.com/vim-scripts/tir_black.git
-[submodule "bundle/wombat"]
-	path = bundle/wombat
-	url = git://github.com/vim-scripts/Wombat.git
-[submodule "bundle/desert-warm-256"]
-	path = bundle/desert-warm-256
-	url = git://github.com/rainux/vim-desert-warm-256.git
 [submodule "bundle/html5"]
 	path = bundle/html5
 	url = git://github.com/othree/html5.vim.git
@@ -43,9 +31,6 @@
 [submodule "bundle/markdown"]
 	path = bundle/markdown
 	url = git://github.com/plasticboy/vim-markdown.git
-[submodule "bundle/confluencewiki"]
-	path = bundle/confluencewiki
-	url = https://github.com/vim-scripts/confluencewiki.vim.git
 [submodule "bundle/vim-json"]
 	path = bundle/vim-json
 	url = git@github.com:elzr/vim-json.git
@@ -55,9 +40,6 @@
 [submodule "bundle/editorconfig"]
 	path = bundle/editorconfig
 	url = https://github.com/editorconfig/editorconfig-vim.git
-[submodule "bundle/vim-less"]
-	path = bundle/vim-less
-	url = https://github.com/groenewege/vim-less.git
 [submodule "bundle/emmet-vim"]
 	path = bundle/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git

@@ -1,7 +1,6 @@
 " enable pathogen
 call pathogen#infect()
 
-" turn on standard drupal stuff
 set expandtab
 set tabstop=2
 set shiftwidth=2
@@ -12,15 +11,6 @@ set number
 set number
 
 augroup module
-  " Drupal *.module and *.install files.
-  autocmd BufRead,BufNewFile *.module set filetype=php
-  autocmd BufRead,BufNewFile *.install set filetype=php
-  autocmd BufRead,BufNewFile *.test set filetype=php
-  autocmd BufRead,BufNewFile *.inc set filetype=php
-  autocmd BufRead,BufNewFile *.profile set filetype=php
-  autocmd BufRead,BufNewFile *.view set filetype=php
-  autocmd BufRead,BufNewFile *.ftl set filetype=html.ftl
-
   " js folding
   autocmd BufRead,BufNewFile *.js set foldmethod=syntax
   autocmd BufRead,BufNewFile .jshintrc set filetype=json
