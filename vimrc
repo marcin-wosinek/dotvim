@@ -14,7 +14,8 @@ augroup module
   " js folding
   autocmd BufRead,BufNewFile *.js set foldmethod=syntax
   autocmd BufRead,BufNewFile .jshintrc set filetype=json
-  autocmd BufRead,BufNewFile *.styl set filetype=stylus
+  autocmd BufRead,BufNewFile *.styl set filetype=css
+  autocmd BufRead,BufNewFile *.css set filetype=css
 augroup END
 
 " for improving use of paste in putty
@@ -101,3 +102,5 @@ let g:vim_json_syntax_conceal = 0
 set spell spelllang=en_us
 
 let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_css_checkers = ['stylelint']
+let g:syntastic_html_checkers = ['htmlhint']
