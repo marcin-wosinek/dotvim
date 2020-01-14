@@ -19,7 +19,7 @@ augroup module
 augroup END
 
 " for improving use of paste in putty
-set pastetoggle=<F10>
+set pastetoggle=<F9>
 
 " add best esc mapping ever
 inoremap jk <esc>
@@ -100,7 +100,11 @@ autocmd FileType scss set omnifunc=csscomplete#CompleteCSS
 let g:vim_json_syntax_conceal = 0
 
 set spell spelllang=en_us
+hi SpellBad cterm=underline
 
 let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_typescript_checkers = ['eslint']
 let g:syntastic_css_checkers = ['stylelint']
 let g:syntastic_html_checkers = ['htmlhint']
+
+autocmd FileType make setlocal noexpandtab
